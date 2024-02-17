@@ -4,8 +4,8 @@
 
   let tabs: { name: string; link: string }[] = [
     { name: "Projects", link: "#projects" },
-    { name: "About Me", link: "#about" },
-    { name: "Tech Stack", link: "#tech-stack" }
+    { name: "Tech Stack", link: "#tech-stack" },
+    { name: "About Me", link: "#about" }
   ];
 
   let isScrolled = false;
@@ -18,7 +18,7 @@
   });
 
   function handleScroll() {
-    isScrolled = window.scrollY > 0;
+    isScrolled = window.scrollY > 50;
   }
 </script>
 
