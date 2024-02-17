@@ -34,7 +34,8 @@
     },
     {
       title: "Cricket Guru",
-      description: "Relive your favorite sport through the best cricket bot on Discord with 33K+ users & 14K+ servers (co-developer)",
+      description:
+        "Relive your favorite sport through the best cricket bot on Discord with 33K+ users & 14K+ servers (co-developer)",
       image: "project-assets/cg.png",
       link: "https://github.com/27Saumya/lines-tally"
     },
@@ -52,7 +53,8 @@
     },
     {
       title: "Hangdev",
-      description: "A CLI game inspired from Hangman made for developers to play right in their computer shell!",
+      description:
+        "A CLI game inspired from Hangman made for developers to play right in their computer shell!",
       image: "project-assets/hangdev.png",
       link: "https://github.com/27Saumya/hangdev"
     },

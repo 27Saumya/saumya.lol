@@ -75,47 +75,53 @@ h3 .poppins {
 }
 
 .card {
-	overflow: hidden;
-	color: white;
+  overflow: hidden;
+  color: white;
 
-	border: 1px solid #673be0;
+  border: 1px solid #673be0;
 
-	border-radius: var(--rounded);
+  border-radius: var(--rounded);
 
-	@apply p-4 flex bg-slate-900 justify-center items-center relative gap-5 flex-col;
+  @apply p-4 flex bg-slate-900 justify-center items-center relative gap-5 flex-col;
 
-	will-change: transform;
-	transition: scale 200ms ease-in-out;
+  will-change: transform;
+  transition: scale 200ms ease-in-out;
 }
 
 .card.fade::before {
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(90deg, rgb(27, 27, 49) 0%, transparent 20%, transparent 80%, rgb(27, 27, 49) 100%);
-	z-index: 1;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(27, 27, 49) 0%,
+    transparent 20%,
+    transparent 80%,
+    rgb(27, 27, 49) 100%
+  );
+  z-index: 1;
 }
 
 .card:hover {
-	scale: 1.05;
-	transform: translate(var(--x), var(--y));
+  scale: 1.05;
+  transform: translate(var(--x), var(--y));
 }
 
 .content {
-	will-change: transform;
+  will-change: transform;
 }
 
 .card:hover .content > * {
-	transform: translate(calc(-1 * var(--x)), calc(-1 * var(--y)));
+  transform: translate(calc(-1 * var(--x)), calc(-1 * var(--y)));
 }
 
 .content-hs {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .card .content-hs > * {
-	scale: calc(1 + var(--offset));
+  scale: calc(1 + var(--offset));
 }

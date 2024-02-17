@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount } from "svelte";
   import "iconify-icon";
 
   let tabs: { name: string; link: string }[] = [
@@ -11,9 +11,9 @@
   let isScrolled = false;
 
   onMount(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   });
 
@@ -23,7 +23,9 @@
 </script>
 
 <header
-  class="{isScrolled ? 'bg-opacity-50 backdrop-filter backdrop-blur-md border-b border-solid border-violet-400 border-t-0 border-r-0 border-l-0' : 'bg-transparent'} sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between py-5"
+  class="{isScrolled
+    ? 'bg-opacity-50 backdrop-filter backdrop-blur-md border-b border-solid border-violet-400 border-t-0 border-r-0 border-l-0'
+    : 'bg-transparent'} sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between py-5"
 >
   <h1 class="font-medium">
     <a href="/" class="duration-200 hover:text-violet-400">
