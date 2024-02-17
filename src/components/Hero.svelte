@@ -1,28 +1,66 @@
 <script lang="ts">
-  let skills: string[] = ["Python", "Rust", "Typescript", "Swift"];
+  import Card from "./Card.svelte";
+
+  let skills: { name: string; link: string }[] = [
+    {
+      name: "Python",
+      link: "https://www.python.org"
+    },
+    {
+      name: "Rust",
+      link: "https://www.rust-lang.org"
+    },
+    {
+      name: "Typescript",
+      link: "https://www.typescriptlang.org"
+    },
+    {
+      name: "Swift",
+      link: "https://www.swift.org"
+    }
+  ];
+
   let projects: {
     title: string;
     description: string;
     image: string;
-    githubLink: string | undefined;
+    link: string;
   }[] = [
     {
       title: "Macboard",
       description: "A minimalistic clipboard Manager for macOS",
       image: "project-assets/macboard.png",
-      githubLink: "https://github.com/27Saumya/Macboard"
+      link: "https://github.com/27Saumya/Macboard"
     },
     {
-      title: "Yuki",
-      description: "A fun, cute & multipurpose discord bot",
-      image: "project-assets/yuki.png",
-      githubLink: "https://github.com/27Saumya/Macboard"
+      title: "Cricket Guru",
+      description: "Relive your favorite sport through the best cricket bot on Discord with 33K+ users & 14K+ servers (co-developer)",
+      image: "project-assets/cg.png",
+      link: "https://github.com/27Saumya/lines-tally"
     },
     {
       title: "Create Discord Bot",
       description: "A blazingly fast 🚀 CLI tool for quickly creating Discord Bot boilerplates",
       image: "project-assets/create-discord-bot.png",
-      githubLink: "https://github/27Saumya/create-discord-bot"
+      link: "https://github.com/27Saumya/create-discord-bot"
+    },
+    {
+      title: "Lines Tally",
+      description: "An elegant CLI tool that returns the number of lines of code in a directory",
+      image: "project-assets/lines-tally.png",
+      link: "https://github.com/27Saumya/lines-tally"
+    },
+    {
+      title: "Hangdev",
+      description: "A CLI game inspired from Hangman made for developers to play right in their computer shell!",
+      image: "project-assets/hangdev.png",
+      link: "https://github.com/27Saumya/hangdev"
+    },
+    {
+      title: "Yuki",
+      description: "A fun, cute & multipurpose discord bot (no longer available 😔)",
+      image: "project-assets/yuki.png",
+      link: "https://github.com/27Saumya/Yuki"
     }
   ];
 </script>
@@ -39,11 +77,9 @@
         <br />
         <p class="sm: text-large md: text-xl">
           My proeficiency includes {#each skills as skill, index}
-            <span class="gradientText">{skill}</span>{index == skills.length - 1
-              ? ""
-              : index == skills.length - 2
-                ? " & "
-                : ", "}
+            <span class="gradientText hover:underline hover:decoration-wavy decoration-violet-400"
+              ><a href={skill.link} target="_blank">{skill.name}</a></span
+            >{index == skills.length - 1 ? "" : index == skills.length - 2 ? " & " : ", "}
           {/each}
         </p>
       </div>
@@ -51,7 +87,7 @@
     <img
       src="images/profile.png"
       alt="Profile"
-      class="rounded-full object-cover z-[2] max-h-[70vh] mx-auto mt-8"
+      class="border-4 border-violet-400 rounded-full object-cover z-[2] max-h-[70vh] mx-auto mt-8"
     />
   </section>
 
@@ -65,18 +101,27 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {#each projects as project}
-        <div
-          class="border rounded-[20px] border-violet-400 overflow-hidden hover:shadow-lg transition duration-300 ease-in-out"
-        >
-          <img src={project.image} alt={project.title} class="w-full h-64 object-cover" />
-
-          <div class="p-4">
-            <a href={project.githubLink} class="duration-200">
-              <h3 class="gradientText text-center font-bold text-xl mb-2">{project.title}</h3>
+        <Card>
+          <div
+            class="content flex gap-3 p-1 items-start text-left justify-center flex-col max-w-[20rem]"
+          >
+            <a href={project.link} target="_blank">
+              <img src={project.image} alt={project.title} class=" object-cover rounded-3xl" />
             </a>
-            <p class="text-center">{project.description}</p>
+            <div class="">
+              <a
+                href={project.link}
+                target="_blank"
+                class="gradientText pl-2 text-2xl font-semibold underline decoration-transparent underline-offset-4 hover:decoration-violet-400"
+              >
+                {project.title}
+              </a>
+              <p class="pl-2 mt-1 text-sm opacity-[0.8]">
+                {project.description}
+              </p>
+            </div>
           </div>
-        </div>
+        </Card>
       {/each}
     </div>
   </section>
