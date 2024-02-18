@@ -29,7 +29,7 @@
     {
       title: "Macboard",
       description: "A minimalistic clipboard Manager for macOS",
-      image: "project-assets/macboard.png",
+      image: "project-assets/macboard-full.png",
       link: "/macboard"
     },
     {
@@ -40,16 +40,16 @@
       link: "https://github.com/27Saumya/lines-tally"
     },
     {
-      title: "Create Discord Bot",
-      description: "A blazingly fast 🚀 CLI tool for quickly creating Discord Bot boilerplates",
-      image: "project-assets/create-discord-bot.png",
-      link: "https://github.com/27Saumya/create-discord-bot"
-    },
-    {
       title: "Lines Tally",
       description: "An elegant CLI tool that returns the number of lines of code in a directory",
       image: "project-assets/lines-tally.png",
       link: "https://github.com/27Saumya/lines-tally"
+    },
+    {
+      title: "Create Discord Bot",
+      description: "A blazingly fast 🚀 CLI tool for quickly creating Discord Bot boilerplates",
+      image: "project-assets/create-discord-bot.png",
+      link: "https://github.com/27Saumya/create-discord-bot"
     },
     {
       title: "Hangdev",
@@ -59,10 +59,10 @@
       link: "https://github.com/27Saumya/hangdev"
     },
     {
-      title: "Yuki",
-      description: "A fun, cute & multipurpose discord bot (no longer running 😔)",
-      image: "project-assets/yuki.png",
-      link: "https://github.com/27Saumya/Yuki"
+      title: "Cookin'",
+      description: "Cookin' spomething hard, please lemme cook!",
+      image: "project-assets/cookin.png",
+      link: "https://github.com/27Saumya"
     }
   ];
 

@@ -2,9 +2,9 @@
   import { onMount } from "svelte";
 
   let tabs: { name: string; link: string }[] = [
-    { name: "Projects", link: "#projects" },
-    { name: "Tech Stack", link: "#tech-stack" },
-    { name: "About Me", link: "#about" }
+    { name: "Projects", link: "/#projects" },
+    { name: "Tech Stack", link: "/#tech-stack" },
+    { name: "About Me", link: "/#about" }
   ];
 
   let isScrolled = false;

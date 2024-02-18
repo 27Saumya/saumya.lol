@@ -9,7 +9,7 @@
     {
       title: "CLEAN UI",
       description:
-        "What is important for an app to be classified as a minimal one? Undoubtebly the UI, and likewise Macboard has a very clean UI for the best experience!",
+        "What is important for an app to be classified as a minimal one? Undoubtebly the UI, and likewise Macboard has a very clean UI for the best user experience!",
       image: "project-assets/sidebar.svg"
     },
     {
@@ -19,10 +19,10 @@
       image: "project-assets/feather.svg"
     },
     {
-      title: "BLAZINGLY FAST",
+      title: "DETAILS",
       description:
-        "Optimized for speed, Macboard delivers lightning-fast response times, enhancing your productivity and reducing wait times to a minimum.",
-      image: "project-assets/zap.svg"
+        "Get details for any and everything you copy, Macboard offers users to view the time since something was copied, the app from which it was copied and even URL previews!",
+      image: "project-assets/info.svg"
     },
     {
       title: "KEYBOARD CONTROL",
