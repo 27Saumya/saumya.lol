@@ -60,7 +60,7 @@
     },
     {
       title: "Cookin'",
-      description: "Cookin' spomething hard, please lemme cook!",
+      description: "Cookin' something hard, please lemme cook now!",
       image: "project-assets/cookin.png",
       link: "https://github.com/27Saumya"
     }
