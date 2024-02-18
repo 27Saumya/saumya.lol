@@ -243,7 +243,7 @@
       <h2
         class="Poppins text-lg sm:text-xl lg:text-2xl underline decoration-wavy decoration-violet-400"
       >
-        Tech I <span class="gradientText text-3xl font-bold">use</span> everyday 👨‍💻
+        Tech I <span class="gradientText text-2xl font-bold">use</span> everyday 👨‍💻
       </h2>
     </div>
 
@@ -280,5 +280,21 @@
         >
       {/each}
     </div>
+  </section>
+
+  <section id="about" class="py-16 text-center">
+    <h2
+      class="Poppins text-lg sm:text-xl lg:text-2xl underline decoration-wavy decoration-violet-400"
+    >
+      A little more <span class="gradientText font-bold">about</span> me 🤭
+    </h2>
+    <p class="sm:px-4 md:px-8 lg:px-20 mt-4 text-pretty">
+      Hey there, thanks for sticking out till the very end! Let me tell you more about myself.<br />
+      I am Saumya&comma; a young passionate&comma; self taught developer from India&comma; always trying
+      to stay engaged in a project&comma; trying to improve my skills furtermore!<br />
+      I love <span class="gradientText underline decoration-wavy">geography</span>&comma;
+      <span class="gradientText underline">rubik&apos;s cubes</span>&comma; and
+      <span class="gradientText">music</span> alongside programming!
+    </p>
   </section>
 </main>
