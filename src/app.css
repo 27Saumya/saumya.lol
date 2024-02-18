@@ -40,6 +40,14 @@ h3 .poppins {
   display: inline-block;
 }
 
+.poppingButton {
+  transition: transform 0.2s ease-in-out;
+}
+
+.poppingButton:hover {
+  transform: scale(1.1);
+}
+
 @keyframes wave-animation {
   0% {
     transform: rotate(0deg);

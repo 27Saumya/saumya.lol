@@ -30,7 +30,7 @@
       title: "Macboard",
       description: "A minimalistic clipboard Manager for macOS",
       image: "project-assets/macboard.png",
-      link: "https://github.com/27Saumya/Macboard"
+      link: "/macboard"
     },
     {
       title: "Cricket Guru",
@@ -276,8 +276,8 @@
                 </div>
               </div>
             </div>
-          </div></Card
-        >
+          </div>
+        </Card>
       {/each}
     </div>
   </section>

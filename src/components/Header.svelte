@@ -1,6 +1,5 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import "iconify-icon";
 
   let tabs: { name: string; link: string }[] = [
     { name: "Projects", link: "#projects" },
@@ -29,7 +28,7 @@
 >
   <h1 class="font-medium">
     <a href="/" class="duration-200 hover:text-violet-400">
-      <iconify-icon icon="fa:home"></iconify-icon>
+      <i class="fa-solid fa-house" />
     </a>
   </h1>
 
