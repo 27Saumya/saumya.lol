@@ -49,7 +49,8 @@
   <title>Macboard</title>
   <meta property="og:title" content="Macboard" />
   <meta property="og:description" content="A minimalistic clipboard manager for macOS" />
-  <meta property="og:image" content="project-assets/macboard.png" />
+  <meta property="og:image" content="https://saumya.lol/project-assets/macboard-full.png" />
+  <meta property="twitter:image" content="https://saumya.lol/project-assets/macboard-full.png" />
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
