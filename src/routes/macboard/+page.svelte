@@ -68,26 +68,20 @@
     <br />
   </section>
   <section class="flex flex-row justify-center items-center mt-[-20px]">
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div
-      on:click={() =>
-        window.open(
-          "http://github.com/27Saumya/Macboard/releases/latest/download/Macboard.dmg",
-          "_blank"
-        )}
-      class="Poppins poppingButton cursor-pointer font-bold text-lg rounded-xl px-5 py-2 text-center me-3 mb-2 text-white bg-gradient-to-r from-[#b385f4] to-[#4f48dd] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800"
-    >
-      <i class="fa fa-download" />&nbsp; Download
-    </div>
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div
-      on:click={() => window.open("http://github.com/27Saumya/Macboard", "_blank")}
-      class="Poppins poppingButton cursor-pointer border-2 border-violet-600 font-bold text-lg rounded-2xl px-5 py-2 text-center me-3 mb-2 text-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800"
-    >
-      <i class="fa fa-github" />&nbsp; Github
-    </div>
+    <a href="/download/Macboard.dmg" download>
+      <div
+        class="Poppins poppingButton cursor-pointer font-bold text-lg rounded-xl px-5 py-2 text-center me-3 mb-2 text-white bg-gradient-to-r from-[#b385f4] to-[#4f48dd] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800"
+      >
+        <i class="fa fa-download" />&nbsp; Download
+      </div>
+    </a>
+    <a href="https://github.com/27Saumya/Macboard" target="_blank">
+      <div
+        class="Poppins poppingButton cursor-pointer border-2 border-violet-600 font-bold text-lg rounded-2xl px-5 py-2 text-center me-3 mb-2 text-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800"
+      >
+        <i class="fa fa-github" />&nbsp; Github
+      </div>
+    </a>
   </section>
   <p class="text-center">
     <i class="fa-brands fa-apple" />&nbsp; MacOS Ventura 13.0+
@@ -102,7 +96,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {#each features as card}
-        <Card classes="aspect-[1] lg:w-[350px] ">
+        <Card classes="cursor-auto aspect-[1] lg:w-[350px] ">
           <div
             class="content flex gap-3 p-1 items-center text-center justify-center flex-col max-w-[20rem]"
           >
