@@ -186,8 +186,8 @@
           a full stack <span class="gradientText">Developer</span>
         </h3>
         <br />
-        <p class="sm: text-large md: text-xl">
-          My proeficiency includes {#each skills as skill, index}
+        <p class="sm:text-large md:text-xl">
+          My proficiency includes {#each skills as skill, index}
             <span class="gradientText hover:underline hover:decoration-wavy decoration-violet-400"
               ><a href={skill.link} target="_blank">{skill.name}</a></span
             >{index == skills.length - 1 ? "" : index == skills.length - 2 ? " & " : ", "}
