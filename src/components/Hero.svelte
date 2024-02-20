@@ -202,7 +202,7 @@
     />
   </section>
 
-  <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
+  <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24 items-center">
     <div class="flex flex-col gap-2 text-center">
       <h2
         class="Poppins text-lg sm:text-xl lg:text-2xl underline decoration-wavy decoration-violet-400"
@@ -238,7 +238,7 @@
     </div>
   </section>
 
-  <section id="tech-stack" class="py-16 flex flex-col gap-24">
+  <section id="tech-stack" class="py-16 flex flex-col gap-24 items-center">
     <div class="flex flex-col gap-2 text-center">
       <h2
         class="Poppins text-lg sm:text-xl lg:text-2xl underline decoration-wavy decoration-violet-400"

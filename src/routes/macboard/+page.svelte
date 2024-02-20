@@ -97,7 +97,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {#each features as card}
-        <Card classes="cursor-auto aspect-[1] lg:w-[350px] ">
+        <Card classes="cursor-auto aspect-[1] lg:w-[350px] mx-auto">
           <div
             class="content flex gap-3 p-1 items-center text-center justify-center flex-col max-w-[20rem]"
           >
