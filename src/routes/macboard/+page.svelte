@@ -84,8 +84,9 @@
     </a>
   </section>
   <p class="text-center">
-    <i class="fa-brands fa-apple" />&nbsp; MacOS Ventura 13.0+
+    <i class="fa-brands fa-apple" />&nbsp; MacOS Monterey 12.0+
   </p>
+  <img src="project-assets/macboard-demo.png" alt="Macboard Demo" class="w-2/3 h-2/3 mt-5 mx-auto" />
 
   <section class="py-32 flex flex-col gap-24">
     <div class="flex flex-col gap-2 text-center">
