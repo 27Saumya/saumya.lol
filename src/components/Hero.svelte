@@ -292,8 +292,8 @@
       Hey there, thanks for sticking out till the very end! Let me tell you more about myself.<br />
       I am Saumya&comma; a young passionate&comma; self taught developer from India&comma; always trying
       to stay engaged in a project&comma; trying to improve my skills furtermore!<br />
-      I love <span class="gradientText underline decoration-wavy">geography</span>&comma;
-      <span class="gradientText underline">rubik&apos;s cubes</span>&comma; and
+      I love <span class="gradientText">geography</span>&comma;
+      <span class="gradientText">rubik&apos;s cubes</span>&comma; and
       <span class="gradientText">music</span> alongside programming!
     </p>
   </section>
