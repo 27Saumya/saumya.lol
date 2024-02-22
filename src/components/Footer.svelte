@@ -17,7 +17,10 @@
       target="_blank"
       class="hover:text-violet-400"
     >
-    <i class="fa-brands fa-discord" />
+      <i class="fa-brands fa-discord" />
+    </a>
+    <a href="mailto:hi@saumya.lol" class="hover:text-violet-400">
+      <i class="fa fa-envelope" />
     </a>
   </div>
 </footer>
