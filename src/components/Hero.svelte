@@ -172,15 +172,15 @@
   ];
 </script>
 
-<main class="flex flex-col flex-1 p-4 mt-[-12px]">
+<main class="mt-[-12px] flex flex-1 flex-col p-4">
   <section
     id="/"
-    class="grid grid-col-1 gap-10 py-8 sm:py-14"
+    class="grid-col-1 grid gap-10 py-8 sm:py-14"
     style="text-shadow: 0px 0px 100px white;"
   >
     <div class="flex justify-center gap-6 md:gap-8 lg:gap-10">
       <div class="text-center">
-        <h3 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+        <h3 class="text-4xl font-semibold sm:text-5xl md:text-6xl">
           Hey <span class="wave">👋</span>! I&apos;m <span class="gradientText">Saumya</span>&comma;
           <br />
           a full stack <span class="gradientText">Developer</span>
@@ -188,7 +188,7 @@
         <br />
         <p class="sm:text-large md:text-xl">
           My proficiency includes {#each skills as skill, index}
-            <span class="gradientText hover:underline hover:decoration-wavy decoration-violet-400"
+            <span class="gradientText decoration-violet-400 hover:underline hover:decoration-wavy"
               ><a href={skill.link} target="_blank">{skill.name}</a></span
             >{index == skills.length - 1 ? "" : index == skills.length - 2 ? " & " : ", "}
           {/each}
@@ -198,27 +198,27 @@
     <img
       src="images/profile.png"
       alt="Profile"
-      class="border-4 border-violet-400 rounded-full object-cover z-[2] max-h-[70vh] mx-auto mt-8"
+      class="z-[2] mx-auto mt-8 max-h-[70vh] rounded-full border-4 border-violet-400 object-cover"
     />
   </section>
 
-  <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24 items-center">
+  <section id="projects" class="flex flex-col items-center gap-24 py-20 lg:py-32">
     <div class="flex flex-col gap-2 text-center">
       <h2
-        class="Poppins text-lg sm:text-xl lg:text-2xl underline decoration-wavy decoration-violet-400"
+        class="Poppins text-lg underline decoration-violet-400 decoration-wavy sm:text-xl lg:text-2xl"
       >
         Projects that I&apos;ve <span class="gradientText font-bold">built</span> with 💖
       </h2>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {#each projects as project}
         <Card>
           <div
-            class="content flex gap-3 p-1 items-start text-left justify-center flex-col max-w-[20rem]"
+            class="content flex max-w-[20rem] flex-col items-start justify-center gap-3 p-1 text-left"
           >
             <a href={project.link} target="_blank">
-              <img src={project.image} alt={project.title} class=" object-cover rounded-3xl" />
+              <img src={project.image} alt={project.title} class=" rounded-3xl object-cover" />
             </a>
             <div class="">
               <a
@@ -228,7 +228,7 @@
               >
                 {project.title}
               </a>
-              <p class="pl-2 mt-1 text-sm opacity-[0.8]">
+              <p class="mt-1 pl-2 text-sm opacity-[0.8]">
                 {project.description}
               </p>
             </div>
@@ -238,26 +238,26 @@
     </div>
   </section>
 
-  <section id="tech-stack" class="py-16 flex flex-col gap-24 items-center">
+  <section id="tech-stack" class="flex flex-col items-center gap-24 py-16">
     <div class="flex flex-col gap-2 text-center">
       <h2
-        class="Poppins text-lg sm:text-xl lg:text-2xl underline decoration-wavy decoration-violet-400"
+        class="Poppins text-lg underline decoration-violet-400 decoration-wavy sm:text-xl lg:text-2xl"
       >
         Tech I <span class="gradientText text-2xl font-bold">use</span> everyday 👨‍💻
       </h2>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {#each techStackCards as card}
         <Card
           on:click={() => window.open(card.link, "_blank")}
           classes="cursor-pointer aspect-[1] lg:w-[350px] "
         >
           <div
-            class="content flex gap-3 p-1 items-center text-center justify-center flex-col max-w-[20rem]"
+            class="content flex max-w-[20rem] flex-col items-center justify-center gap-3 p-1 text-center"
           >
             <div
-              class="bg-[#3d3a45] p-5 flex rounded-xl border border-outline border-violet-400 justify-center items-center aspect-[1]"
+              class="border-outline flex aspect-[1] items-center justify-center rounded-xl border border-violet-400 bg-[#3d3a45] p-5"
             >
               <img src={card.image} alt={card.title} class="w-10" />
             </div>
@@ -265,12 +265,12 @@
               <h1 class="gradientText pl-2 text-2xl font-semibold">
                 {card.title}
               </h1>
-              <p class="pl-2 mt-1 text-sm opacity-[0.8]">
+              <p class="mt-1 pl-2 text-sm opacity-[0.8]">
                 {card.description}
               </p>
-              <div class="flex justify-center items-center flex-wrap gap-1">
+              <div class="flex flex-wrap items-center justify-center gap-1">
                 <div
-                  class="gradientText rounded-xl border border-indigo-700 font-semibold text-sx px-2 py-1 mt-4"
+                  class="gradientText text-sx mt-4 rounded-xl border border-indigo-700 px-2 py-1 font-semibold"
                 >
                   {card.tag}
                 </div>
@@ -284,11 +284,11 @@
 
   <section id="about" class="py-16 text-center">
     <h2
-      class="Poppins text-lg sm:text-xl lg:text-2xl underline decoration-wavy decoration-violet-400"
+      class="Poppins text-lg underline decoration-violet-400 decoration-wavy sm:text-xl lg:text-2xl"
     >
       A little more <span class="gradientText font-bold">about</span> me 🤭
     </h2>
-    <p class="sm:px-4 md:px-8 lg:px-20 mt-4 text-pretty">
+    <p class="mt-4 text-pretty sm:px-4 md:px-8 lg:px-20">
       Hey there, thanks for sticking out till the very end! Let me tell you more about myself.<br />
       I am Saumya&comma; a young passionate&comma; self taught developer from India&comma; always trying
       to stay engaged in a project&comma; trying to improve my skills furtermore!<br />

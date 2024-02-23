@@ -1,5 +1,5 @@
 <footer
-  class="relative z[-10] border-t border-violet-500 bottom-0 duration-200 px-6 flex text-center justify-between py-4"
+  class="z[-10] relative bottom-0 flex justify-between border-t border-violet-500 px-6 py-4 text-center duration-200"
 >
   <span class="font-light">&copy; Saumya &bull; 2024 - All rights reserved</span>
   <div class="flex items-center gap-4 sm:flex-wrap sm:justify-end">

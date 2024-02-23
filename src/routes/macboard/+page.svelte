@@ -54,30 +54,30 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<main class="flex flex-col flex-1 p-4 mt-[-12px]">
-  <section class="flex flex-wrap justify-center items-center py-8 sm:py-14">
-    <img src="project-assets/macboard.png" alt="Macboard Logo" class="w-32 h-32 mr-4" />
+<main class="mt-[-12px] flex flex-1 flex-col p-4">
+  <section class="flex flex-wrap items-center justify-center py-8 sm:py-14">
+    <img src="project-assets/macboard.png" alt="Macboard Logo" class="mr-4 h-32 w-32" />
     <div class="text-center md:text-left">
-      <h3 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+      <h3 class="text-4xl font-semibold sm:text-5xl md:text-6xl">
         <span class="gradientText">Macboard</span>
       </h3>
-      <p class="mt-3 sm:text-large md:text-xl">
+      <p class="sm:text-large mt-3 md:text-xl">
         A <span class="gradientText">minimalistic</span> clipboard manager for macOS
       </p>
     </div>
     <br />
   </section>
-  <section class="flex flex-row justify-center items-center mt-[-20px]">
+  <section class="mt-[-20px] flex flex-row items-center justify-center">
     <a href="/download/Macboard.dmg" download>
       <div
-        class="Poppins poppingButton cursor-pointer font-bold text-lg rounded-xl px-5 py-2 text-center me-3 mb-2 text-white bg-gradient-to-r from-[#b385f4] to-[#4f48dd] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800"
+        class="Poppins poppingButton mb-2 me-3 cursor-pointer rounded-xl bg-gradient-to-r from-[#b385f4] to-[#4f48dd] px-5 py-2 text-center text-lg font-bold text-white hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
       >
         <i class="fa fa-download" />&nbsp; Download
       </div>
     </a>
     <a href="https://github.com/27Saumya/Macboard" target="_blank">
       <div
-        class="Poppins poppingButton cursor-pointer border-2 border-violet-600 font-bold text-lg rounded-2xl px-5 py-2 text-center me-3 mb-2 text-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800"
+        class="Poppins poppingButton mb-2 me-3 cursor-pointer rounded-2xl border-2 border-violet-600 px-5 py-2 text-center text-lg font-bold text-white hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
       >
         <i class="fa fa-github" />&nbsp; Github
       </div>
@@ -86,23 +86,27 @@
   <p class="text-center">
     <i class="fa-brands fa-apple" />&nbsp; MacOS Monterey 12.0+
   </p>
-  <img src="project-assets/macboard-demo.png" alt="Macboard Demo" class="w-2/3 h-2/3 rounded-3xl mt-5 mx-auto" />
+  <img
+    src="project-assets/macboard-demo.png"
+    alt="Macboard Demo"
+    class="mx-auto mt-5 h-2/3 w-2/3 rounded-3xl"
+  />
 
-  <section class="py-32 flex flex-col gap-24">
+  <section class="flex flex-col gap-24 py-32">
     <div class="flex flex-col gap-2 text-center">
       <h2 class="Poppins text-3xl">
         Why <span class="Poppins gradientText text-4xl font-bold">use</span> Macboard?
       </h2>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {#each features as card}
         <Card classes="cursor-auto aspect-[1] lg:w-[350px] mx-auto">
           <div
-            class="content flex gap-3 p-1 items-center text-center justify-center flex-col max-w-[20rem]"
+            class="content flex max-w-[20rem] flex-col items-center justify-center gap-3 p-1 text-center"
           >
             <div
-              class="bg-[#9792ff] p-5 flex rounded-xl border border-outline border-violet-400 justify-center items-center aspect-[1]"
+              class="border-outline flex aspect-[1] items-center justify-center rounded-xl border border-violet-400 bg-[#9792ff] p-5"
             >
               <img src={card.image} alt={card.title} class="w-10" />
             </div>
@@ -110,7 +114,7 @@
               <h1 class="gradientText pl-2 text-2xl font-semibold">
                 {card.title}
               </h1>
-              <p class="pl-2 mt-1 text-sm opacity-[0.8]">
+              <p class="mt-1 pl-2 text-sm opacity-[0.8]">
                 {card.description}
               </p>
             </div>

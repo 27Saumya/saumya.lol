@@ -90,7 +90,7 @@ h3 .poppins {
 
   border-radius: var(--rounded);
 
-  @apply p-4 flex bg-slate-900 justify-center items-center relative gap-5 flex-col;
+  @apply relative flex flex-col items-center justify-center gap-5 bg-slate-900 p-4;
 
   will-change: transform;
   transition: scale 200ms ease-in-out;

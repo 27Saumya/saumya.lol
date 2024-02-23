@@ -7,7 +7,7 @@
   let innerWidth = 0;
 </script>
 
-<div class="relative flex flex-col max-w-[1400px] mx-auto w-full text-sm sm:text-base min-h-screen">
+<div class="relative mx-auto flex min-h-screen w-full max-w-[1400px] flex-col text-sm sm:text-base">
   <Header />
   <slot />
   <Footer />
