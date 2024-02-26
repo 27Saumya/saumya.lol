@@ -116,6 +116,7 @@ h3 .poppins {
 .card:hover {
   scale: 1.05;
   transform: translate(var(--x), var(--y));
+  box-shadow: 0px 0px 40px rgb(146, 73, 255);
 }
 
 .content {

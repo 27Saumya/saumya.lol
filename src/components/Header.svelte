@@ -41,7 +41,7 @@
 
     <a href="http://twitter.com/saums27" target="_blank">
       <img
-        class="z-[2] h-8 w-8 rounded-full object-cover sm:mr-2"
+        class="z-[2] h-8 w-8 rounded-full border-violet-400 object-cover duration-200 hover:scale-125 hover:border-2 sm:mr-2"
         src="images/profile.png"
         alt="Saumya"
       />

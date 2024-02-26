@@ -176,7 +176,7 @@
   <section
     id="/"
     class="grid-col-1 grid gap-10 py-8 sm:py-14"
-    style="text-shadow: 0px 0px 100px white;"
+    style="text-shadow: 0px 0px 100px white"
   >
     <div class="flex justify-center gap-6 md:gap-8 lg:gap-10">
       <div class="text-center">
