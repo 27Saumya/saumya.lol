@@ -1,4 +1,4 @@
-# saumya.lol
+# [saumya.lol](https://saumya.lol)
 
 ## Stack
 
