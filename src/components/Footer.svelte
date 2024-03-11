@@ -1,7 +1,7 @@
 <footer
   class="z[-10] relative bottom-0 flex justify-between border-t border-violet-500 px-6 py-4 text-center duration-200"
 >
-  <span class="font-light">&copy; Saumya &bull; 2024 - All rights reserved</span>
+  <span class="text-sm font-light">&copy; Saumya &bull; 2024 - All rights reserved</span>
   <div class="flex items-center gap-4 sm:flex-wrap sm:justify-end">
     <a
       href="https://github.com/27Saumya"
