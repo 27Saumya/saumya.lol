@@ -67,7 +67,7 @@
     </div>
     <br />
   </section>
-  <section class="mt-[-20px] flex flex-row items-center justify-center">
+  <section class="mt-[-20px] md:mt-[-28px] flex flex-row items-center justify-center">
     <a href="/download/Macboard.dmg" download>
       <div
         class="Poppins poppingButton mb-2 me-3 cursor-pointer rounded-xl bg-gradient-to-r from-[#b385f4] to-[#4f48dd] px-5 py-2 text-center text-lg font-bold text-white hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"

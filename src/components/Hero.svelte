@@ -17,6 +17,10 @@
     {
       name: "Swift",
       link: "https://www.swift.org"
+    },
+    {
+      name: "Golang",
+      link: "https://go.dev"
     }
   ];
 
@@ -28,7 +32,7 @@
   }[] = [
     {
       title: "Macboard",
-      description: "A minimalistic clipboard Manager for macOS",
+      description: "A minimalistic clipboard manager for macOS",
       image: "project-assets/macboard-full.png",
       link: "/macboard"
     },
@@ -38,6 +42,12 @@
         "Relive your favorite sport through the best cricket bot on Discord with 33K+ users & 14K+ servers (co-developer)",
       image: "project-assets/cg.png",
       link: "https://cricketguru.live"
+    },
+    {
+      title: "Localizer",
+      description: "A CLI tool that helps you localize your applications efficiently",
+      image: "project-assets/localizer.png",
+      link: "https://github.com/27Saumya/localizer"
     },
     {
       title: "Lines Tally",
@@ -58,12 +68,6 @@
       image: "project-assets/hangdev.png",
       link: "https://github.com/27Saumya/hangdev"
     },
-    {
-      title: "Cookin'",
-      description: "Cookin' something hard, please lemme cook now!",
-      image: "project-assets/cookin.png",
-      link: "https://github.com/27Saumya"
-    }
   ];
 
   let techStackCards: {
@@ -106,6 +110,14 @@
       tag: "Language"
     },
     {
+      title: "GoLang",
+      description:
+        "GoLang is a statically typed, compiled, and concurrent programming language. It is designed to be easy to learn and easy to use.",
+      link: "https://go.dev/",
+      image: "tech-stack/golang.svg",
+      tag: "Language"
+    },
+    {
       title: "React",
       description:
         "ReactJS is a JavaScript library for building user interfaces. It is maintained by Facebook and offers a component-based approach for building reusable UI components.",
@@ -127,14 +139,6 @@
         "Svelte is a radical new approach to building user interfaces. It shifts the work from the browser to the build step, resulting in highly optimized and efficient applications.",
       image: "tech-stack/svelte.svg",
       link: "https://svelte.dev/",
-      tag: "Framework"
-    },
-    {
-      title: "SvelteKit",
-      description:
-        "SvelteKit is a framework for building web applications with Svelte. It provides tools and conventions for routing, server-side rendering, and more to streamline development.",
-      image: "tech-stack/svelte.svg",
-      link: "https://kit.svelte.dev/",
       tag: "Framework"
     },
     {
