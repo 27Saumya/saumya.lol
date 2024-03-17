@@ -39,7 +39,7 @@
     {
       title: "OPEN SOURCE",
       description:
-        "Macboard is completely open source! Meaning, anyone can contribute to add new features, fix bugs, etc. This also makes updates quite more often!",
+        "Macboard is completely open source! Meaning, you know about what you get, there's nothing to hide. This also makes updates quite more often!",
       image: "project-assets/github.svg"
     }
   ];
