@@ -15,7 +15,7 @@
     {
       title: "LIGHTWEIGHT",
       description:
-        "Experience unparalleled speed and efficiency with our lightweight design, ensuring smooth performance even on resource-constrained devices.",
+        "Experience unparalleled speed and efficiency with the lightweight design, ensuring smooth performance even on resource-constrained devices.",
       image: "project-assets/feather.svg"
     },
     {
@@ -33,7 +33,7 @@
     {
       title: "SECURE & PRIVATE",
       description:
-        "Macboard respects your privacy and security the most. You don't have to worry about your data, all of this is stored right on your computer.",
+        "Macboard respects your privacy and security the most. You don't have to worry about your data, all of this is stored right on your computer. Also, you have full control over what you get",
       image: "project-assets/lock.svg"
     },
     {
