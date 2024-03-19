@@ -33,7 +33,7 @@
     {
       title: "SECURE & PRIVATE",
       description:
-        "Macboard respects your privacy and security the most. You don't have to worry about your data, all of this is stored right on your computer. Also, you have full control over what you get",
+        "Macboard respects your privacy and security the most. You don't have to worry about your data, all of this is stored right on your computer. Also, you have full control over what you get.",
       image: "project-assets/lock.svg"
     },
     {
