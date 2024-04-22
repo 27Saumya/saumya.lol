@@ -67,7 +67,7 @@
         "A CLI game inspired from Hangman made for developers to play right in their computer shell!",
       image: "project-assets/hangdev.png",
       link: "https://github.com/27Saumya/hangdev"
-    },
+    }
   ];
 
   let techStackCards: {
@@ -295,7 +295,7 @@
     <p class="mt-4 text-pretty sm:px-4 md:px-8 lg:px-20">
       Hey there, thanks for sticking out till the very end! Let me tell you more about myself.<br />
       I am Saumya&comma; a young passionate&comma; self taught developer from India&comma; always trying
-      to stay engaged in a project&comma; trying to improve my skills furtermore!<br />
+      to stay engaged in a project&comma; trying to improve my skills furthermore!<br />
       I love <span class="gradientText">geography</span>&comma;
       <span class="gradientText">rubik&apos;s cubes</span>&comma; and
       <span class="gradientText">music</span> alongside programming!
