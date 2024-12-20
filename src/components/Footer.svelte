@@ -18,7 +18,7 @@
       <i class="fa-brands fa-x-twitter" />
     </a>
     <a
-      href="https://dev.to/27saumya"
+      href="https://dev.to/saums"
       target="_blank"
       class="duration-200 hover:scale-150 hover:text-violet-400"
     >
