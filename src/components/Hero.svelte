@@ -41,7 +41,7 @@
       description:
         "Relive your favorite sport through the best cricket bot on Discord with 33K+ users & 14K+ servers (co-developer)",
       image: "project-assets/cg.png",
-      link: "https://cricketguru.live"
+      link: "https://cricketguru.pro"
     },
     {
       title: "Localizer",
