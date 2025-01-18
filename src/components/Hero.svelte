@@ -297,6 +297,7 @@
       I am Saumya&comma; a young passionate&comma; self taught developer from India&comma; always trying
       to stay engaged in a project&comma; trying to improve my skills furthermore!<br />
       I love <span class="gradientText">geography</span>&comma;
+      <span class="gradientText">sports</span>&comma;
       <span class="gradientText">rubik&apos;s cubes</span>&comma; and
       <span class="gradientText">music</span> alongside programming!
     </p>
