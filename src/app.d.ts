@@ -8,10 +8,6 @@ declare global {
     // interface PageState {}
     // interface Platform {}
   }
-
-  interface ImportMetaEnv {
-    readonly POSTHOG_KEY: string;
-}
 }
 
 export {};
