@@ -4,13 +4,16 @@
   import Footer from "../components/Footer.svelte";
   import { browser } from "$app/environment";
   import posthog from "posthog-js";
+  import { onMount } from "svelte";
   import { PUBLIC_POSTHOG_KEY } from "$env/static/public";
 
-  if (browser) {
-    posthog.init(PUBLIC_POSTHOG_KEY, {
-      api_host: "https://us.i.posthog.com"
-    });
-  }
+  onMount(() => {
+    if (browser) {
+      posthog.init(PUBLIC_POSTHOG_KEY, {
+        api_host: "https://us.i.posthog.com"
+      });
+    }
+  });
 
   let innerHeight = 0;
   let innerWidth = 0;
